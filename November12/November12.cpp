@@ -9,15 +9,37 @@
 
 int main()
 {
-	std::string absolutefilepath = "C://Users//A00431061//Downloads//popular.txt"; //prepend 
+//	std::string somestring = "alpha";
+//
+//	char someletter = 'z';
+//
+//	int positionToStartTheSearchAt = 0;
+//
+//	int locationOfLetter = someString.find(someLetter);
+//
+//	std::cout < , "In the string " << someString;
+//
+//	if (somestring.find(someLetter, 0))
+//	{
+//		std::cout << "The letter " << somestring << " is at index = " << locationOfLetter << std::endl;
+//	}
+//
+//	else 
+//	{
+//		std::cout << "The letter was NOT found (and its index is: " << locationOfLetter << std::endl;
+//	}
 
-	std::vector<std::string> dictionaryWords = getAllDictionaryWords(absolutefilepath);
+	playHangman();
+	//std::string absolutefilepath = "C://Users//A00431061//Downloads//popular.txt"; //prepend 
+	////absolutefilepath::replace()
 
-	for (int i = 0; i < 10; i++)
-	{
+	//std::vector<std::string> dictionaryWords = getAllDictionaryWords(absolutefilepath);
 
-		std::cout << "The number of words is: " << pickRandomWord(dictionaryWords) << std::endl;
-	}
+	//for (int i = 0; i < 10; i++)
+	//{
+
+	//	std::cout << "The number of words is: " << pickRandomWord(dictionaryWords) << std::endl;
+	//}
 
 }
 
